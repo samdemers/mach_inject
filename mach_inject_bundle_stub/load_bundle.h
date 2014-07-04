@@ -7,6 +7,7 @@
 #define		_loader_
 
 #include <mach/error.h>
+#include <sys/cdefs.h>
 
 #define	err_load_bundle_undefined_symbol					(err_local|1)
 #define	err_load_bundle_link_failed							(err_local|2)
